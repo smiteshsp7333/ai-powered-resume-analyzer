@@ -1,6 +1,9 @@
-# AI Resume Analyzer 
+AI-Powered Resume Analyzer with ATS Scoring
 
-AI-Powered Resume Analyzer is a modern web application that leverages AI to analyze resumes, provide ATS (Applicant Tracking System) scores, and deliver actionable feedback to help users improve their job applications. Built with React, TypeScript, Zustand, and powered by Puter.js for authentication, file storage, and AI services.
+A modern AI-driven web application that analyzes resumes using Applicant Tracking System (ATS) principles.
+The platform provides structured feedback, scoring, and improvement suggestions to help users optimize their resumes for real-world hiring systems.
+
+The project focuses on combining AI evaluation, frontend system design, and realistic resume screening workflows used in modern recruitment.
 
 
 ## 🚀 Features
@@ -31,15 +34,14 @@ AI-Powered Resume Analyzer is a modern web application that leverages AI to anal
 
 ## 🛠️ Tech Stack
 
-- **React 19** & **TypeScript**
-- **Claude Sonnet 4** AI Model
-- **React Router 7** (with SSR support)
-- **Vite** for fast development
-- **Tailwind CSS** & **tw-animate-css** for styling and animation
-- **Zustand** for state management
-- **Puter.js** for authentication, file system, AI, and key-value storage
-- **pdfjs-dist** for PDF preview and conversion
-
+🌐 Frontend
+React 19 – Component-based UI development
+TypeScript – Type-safe JavaScript for scalability
+Vite – Fast development server and build tooling
+React Router v7 – File-based routing, loaders, actions, and SSR-ready architecture
+Tailwind CSS – Utility-first styling framework
+tw-animate-css – Lightweight animation utilities
+Zustand – Simple and efficient global state management
 ---
 
 ## 📦 Project Structure
@@ -63,85 +65,74 @@ ai-resume-analyzer/
 
 ---
 
-## ⚡ Quick Start
+🤖 AI & Intelligence Layer
+Claude Sonnet 4 – Large Language Model used for:
+ATS scoring
+Resume feedback generation
+Skill-gap analysis
+Context-aware suggestions
+Custom Prompt Engineering – Structured prompts for consistent, explainable AI responses
 
-### Prerequisites
+🧠 Backend / Platform Services
+Puter.js – Used as a unified backend platform for:
+Authentication (Sign In / Sign Out)
+Secure file storage (resume PDFs)
+AI service integration
+Key-value data storage
+Node.js Runtime – Required for development and execution environment
 
-- [Node.js 20+](https://nodejs.org/)
-- [npm](https://www.npmjs.com/)
+📄 File Handling & Processing
+pdfjs-dist – PDF parsing, preview, and text extraction
+Client-side PDF processing – Secure handling without exposing raw files
 
-### Installation
+🎨 UI / UX
+Responsive Design – Works across desktop, tablet, and mobile
+Accessible UI Patterns – Clean layouts and readable feedback
+Component-driven architecture – Reusable and maintainable UI components
 
-1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/yourusername/AI-Powered-Resume-Analyzer.git
-   cd ai-resume-analyzer
-   ```
+🧪 Development & Tooling
+npm – Dependency management
+Git & GitHub – Version control and collaboration
+ESLint & TypeScript checks – Code quality and consistency
+Modular folder structure – Scalable project organization
 
-2. **Install dependencies:**
-   ```sh
-   npm install
-   ```
+🔐 Security & Data Handling
+Secure authentication via Puter.js
+Controlled file access and storage
+User-controlled data wipe functionality
+No hardcoded secrets in frontend
 
-3. **Run the development server:**
-   ```sh
-   npm run dev
-   ```
+🎯 Key Engineering Highlights
 
-4. **Open in your browser:**
-   ```
-   http://localhost:5173
-   ```
+ATS-style resume evaluation logic
+Structured AI response format
+Clean separation of concerns (UI, logic, AI, storage)
+Real-world product-style architecture
+Resume-ready and internship/project showcase friendly
 
-### Build for Production
 
-```sh
-npm run build
-```
+⚡ Installation & Setup
+Prerequisites
 
-### Start Production Server
+Node.js 20+
+npm
 
-```sh
-npm run start
-```
+📥 Clone the Repository
+git clone https://github.com/smiteshsp7333/ai-powered-resume-analyzer.git
+cd ai-powered-resume-analyzer
 
----
+📦 Install Dependencies
+npm install --legacy-peer-deps
 
-## 📝 Usage
 
-1. **Sign In:** Log in using Puter.js authentication.
-2. **Upload Resume:** Go to "Upload Resume", fill in job details, and upload your PDF.
-3. **Analyze:** Wait for the AI to process your resume and generate feedback.
-4. **Review Feedback:** View ATS score, detailed tips, and download your resume preview.
-5. **Manage Data:** Use the "Wipe App Data" page to delete all your uploaded files and feedback.
+--legacy-peer-deps is required due to React Router v7 peer dependency constraints.
 
----
+▶️ Run the Development Server
+npm run dev
 
-## 📂 Assets & Resources
+🌐 Open in Browser
+http://localhost:5173
 
-- **PDF Worker:** [public/pdf.worker.min.mjs](public/pdf.worker.min.mjs) is required for PDF preview.
-- **Icons:** [public/icons/](public/icons/)
-- **Images:** [public/images/](public/images/)
+developed by- smiteshpokharkar
 
----
 
-## 🤖 AI Response Format
-
-The AI feedback is structured as a [`Feedback`](types/index.d.ts) object, with scores and categorized tips for ATS, tone, content, structure, and skills. See [constants/index.ts](constants/index.ts) for the full format and prompt instructions.
-
----
-
-## 🧑‍💻 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Open a Pull Request
-
----
-
-## 🙋 More Resources
-
-- [Puter.js Documentation](https://puter.com/docs)
-- [React Router Docs](https://reactrouter.com/)
