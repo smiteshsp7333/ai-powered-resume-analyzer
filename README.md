@@ -36,12 +36,19 @@ The project focuses on combining AI evaluation, frontend system design, and real
 
 🌐 Frontend
 React 19 – Component-based UI development
+
 TypeScript – Type-safe JavaScript for scalability
+
 Vite – Fast development server and build tooling
+
 React Router v7 – File-based routing, loaders, actions, and SSR-ready architecture
+
 Tailwind CSS – Utility-first styling framework
+
 tw-animate-css – Lightweight animation utilities
+
 Zustand – Simple and efficient global state management
+
 ---
 
 ## 📦 Project Structure
