@@ -2,27 +2,24 @@
 
 AI-Powered Resume Analyzer is a modern web application that leverages AI to analyze resumes, provide ATS (Applicant Tracking System) scores, and deliver actionable feedback to help users improve their job applications. Built with React, TypeScript, Zustand, and powered by Puter.js for authentication, file storage, and AI services.
 
-<img width="1543" height="868" alt="Screenshot 2025-07-23 153032" src="https://github.com/user-attachments/assets/637146d3-a68d-4516-9bcb-2074f34cdb5d" />
-
-
-
-
----
-
 
 ## 🚀 Features
 
+- **AI-Powered Resume Analysis:** Homepage of the main
+
+   <img width="1896" height="1017" alt="Homepage" src="https://github.com/user-attachments/assets/61c4270b-c94a-4f0d-97a4-c5331d7b7806" />
+
 - **AI-Powered Resume Analysis:** Upload your resume and receive detailed feedback on ATS compatibility, tone, content, structure, and skills.
   
-   <img width="943" height="792" alt="Screenshot 2025-07-23 145522" src="https://github.com/user-attachments/assets/06078bd9-fe0c-49b0-abbc-9a300f0e6650" />
+   <img width="1920" height="1080" alt="Resume upload page" src="https://github.com/user-attachments/assets/64cc2c7d-ffb5-456b-ae2c-1b393e7d44e6" />
    
 - **ATS Score:** Instantly see how your resume performs against automated screening systems.
 
-   <img width="1779" height="857" alt="Screenshot 2025-07-23 152710" src="https://github.com/user-attachments/assets/ede0463f-1d8d-4227-86c1-9428815bbdff" />
+  <img width="1919" height="1029" alt="ATS score result" src="https://github.com/user-attachments/assets/a179f1c6-1710-42ff-8566-8065730d84d0" />
    
 - **Actionable Tips:** Get categorized suggestions for improvement, including specific explanations.
    
-   <img width="1885" height="806" alt="Screenshot 2025-07-23 152958" src="https://github.com/user-attachments/assets/8cbcbcf4-7d87-4a2e-a7f9-d2d0b3efefdd" />
+  <img width="1917" height="1023" alt="Feedback  suggestions page" src="https://github.com/user-attachments/assets/379379a8-1d74-4bf9-8eca-609ed508f96c" />
    
 - **Job-Aware Feedback:** Optionally provide job title and description for tailored analysis.
 - **Secure File Storage:** All files are managed securely via Puter.js.
